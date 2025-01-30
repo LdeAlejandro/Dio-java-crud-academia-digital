@@ -1,0 +1,18 @@
+server.port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update # cria as tabelas no banco de dados caso elas não existam ou atualiza as tabelas
+    properties:
+      hibernate.format_sql: true # para ver as consultas SQL na consola ao executar o projeto com o Spring Boot
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
