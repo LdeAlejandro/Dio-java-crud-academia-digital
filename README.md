@@ -213,14 +213,6 @@ This Spring Boot application demonstrates CRUD (Create, Read, Update, Delete) op
   }
   ```
 
-**Note**: Ensure that the `alunoId` provided in the request body corresponds to an existing student in your database. If the `alunoId` does not exist, the application should handle this gracefully, possibly by returning an appropriate error message.
-
-By adding this section, your README will now comprehensively cover the creation of enrollments in your Spring Boot JPA CRUD application.
-
-
-
-
-
 ## Getting Started
 
 ### Prerequisites
